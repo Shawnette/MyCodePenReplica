@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    background-color: #122735;
+    font-family: 'Lora', serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0.58,0.58, 0.88, 0.158);
+}
+.navbar {
+    height: 100px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0
+
+}
+
+.codepen {
+    display:flex;
+    align-items: center;
+    font-size:2em;
+    
+}
+.explore {
+    color:gold;
+ 
+}
+.navLinks a {
+    font-family: 'Fredoka One', cursive;
+    color: #cbcbcb;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spark {
+    font-family: 'Raleway', sans-serif;
+    color:lightblue;
+}
+
+.featuresArea {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuresArea > .columnWrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.featuresArea> .columnWrapper > .column {
+    padding:20px;
+    margin: 42;
+    text-align: center;
+    transition: 1s;
+}  
+
+p {
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+    cursor:pointer#14396a;
+    color: #ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.signUpButton {
+        box-shadow:inset 0px 1px 0px 0px #3dc21b;
+        background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+        background-color:#44c767;
+        border-radius:6px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:18px 38px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        
+    }
+    .signUpButton:hover {
+        background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+        background-color:#5cbf2a;
+    }
+    .signUpButton:active {
+        position:relative;
+        top:1px;
+}
+.learnButton {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:black;
+	border-radius:6px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:18px 38px;
+	text-decoration:none;
+    
+}
+.learnButton:hover {
+	background:linear-gradient(to bottom, #3dc21b 5%, #44c767 100%);
+	background-color:#3dc21b;
+}
+.learnButton:active {
+	position:relative;
+	top:1px;
+}
+.pageContainer {
+    display:flex;
+    justify-content: center;
+    
+}
+.pageContainer > .contentWrapper {
+    width: 1500px;
+    
+}
+
+.pageContainer > .contentWrapper > #screen {
+    width: 500px;
+    margin: 20;
+    float: right;
+
+}
+.pageContainer > .contentWrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+    
+    
